@@ -10,4 +10,7 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="footer">
+    <text wx:for-items="{{footerList}}" wx:key="key">{{item.name}}</text>
+  </view>
 </view>

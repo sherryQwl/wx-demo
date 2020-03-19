@@ -4,10 +4,11 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '测试一下微信',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    footerList:[{name:'首页',key:'1'},{name:'全部',key:'2'},{name:'购物车',key:'3'},{name:'我的',key:'4'}]
   },
   //事件处理函数
   bindViewTap: function() {
